@@ -11,7 +11,6 @@ def merge_and_sort_lists(list1, list2):
         for b in range (0,len(a)-i-1):
             if a[b]>a[b+1]:
                 a[b],a[b+1]=a[b+1],a[b]
-
     return a
 # TODO: Implement a function that removes all duplicate values in a list and returns a list with only the unique elements in the order they appeared
 def remove_duplicates(my_list):
@@ -33,7 +32,7 @@ def is_sublist(list1, list2):
         return False
 # TODO: Implement a function that rotates the elements of a list to the right by `k` places. `k` is non-negative
 def rotate_list(my_list, k):
-    if not my_list or k == 0:
+    if my_list==[] or k == 0:
         return my_list
     k = k % len(my_list) 
     r = my_list[-k:] + my_list[:-k]
