@@ -17,8 +17,7 @@ def remove_duplicates(my_list):
     r = []
     for i in my_list:
         if i not in r:
-            r.append(i)
-        
+            r.append(i)   
     return r
 # TODO: Implement a function that checks whether a list is a sublist of another list. A sublist is a sequence of consecutive elements that are part of another list
 def is_sublist(list1, list2):

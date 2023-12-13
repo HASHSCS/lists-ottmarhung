@@ -83,7 +83,7 @@ Slicing is a feature that enables accessing parts of sequences like lists. It is
 Here are some examples:
 
 ```python
-sublist = my_list[1:3]  # Get elements from index 1 to 3 (exclusive)
+  # Get elements from index 1 to 3 (exclusive)
 reverse = my_list[::-1]  # Reverse the list
 ```
 
